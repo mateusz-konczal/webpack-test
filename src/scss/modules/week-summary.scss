@@ -1,0 +1,33 @@
+.week-summary {
+  padding: 16px;
+  border: 1px solid #ccc;
+  margin-bottom: 16px;
+  background: #fff;
+  &--special {
+    border: 1px solid #92140c;
+  }
+  &__description {
+    color: #92140c;
+  }
+  &__title {
+    color: #21a179;
+    &::before {
+      //   content: "HELLO ";
+      content: "";
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      background: tomato;
+      border-radius: 50%;
+    }
+    &::after {
+      //   content: "GOODBYE ";
+      content: "";
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      background: tomato;
+      border-radius: 50%;
+    }
+  }
+}
